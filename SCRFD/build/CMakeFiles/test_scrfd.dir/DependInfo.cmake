@@ -12,7 +12,23 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../lite.ai.toolkit/include"
   "/home/user/library/onnxruntime-linux-aarch64-1.17.1/include"
-  "/home/user/library/opencv-4.5.2/build/your-path-to-custom-dir/include/opencv4"
+  "/home/user/library/opencv-4.5.2/build"
+  "/home/user/library/opencv-4.5.2/include"
+  "/home/user/library/opencv-4.5.2/modules/core/include"
+  "/home/user/library/opencv-4.5.2/modules/flann/include"
+  "/home/user/library/opencv-4.5.2/modules/imgproc/include"
+  "/home/user/library/opencv-4.5.2/modules/ml/include"
+  "/home/user/library/opencv-4.5.2/modules/photo/include"
+  "/home/user/library/opencv-4.5.2/modules/dnn/include"
+  "/home/user/library/opencv-4.5.2/modules/features2d/include"
+  "/home/user/library/opencv-4.5.2/modules/imgcodecs/include"
+  "/home/user/library/opencv-4.5.2/modules/videoio/include"
+  "/home/user/library/opencv-4.5.2/modules/calib3d/include"
+  "/home/user/library/opencv-4.5.2/modules/highgui/include"
+  "/home/user/library/opencv-4.5.2/modules/objdetect/include"
+  "/home/user/library/opencv-4.5.2/modules/stitching/include"
+  "/home/user/library/opencv-4.5.2/modules/video/include"
+  "/home/user/library/opencv-4.5.2/modules/gapi/include"
   )
 
 # Targets to which this target links.

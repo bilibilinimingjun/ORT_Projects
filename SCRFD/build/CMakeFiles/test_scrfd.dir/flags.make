@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/user/ORT_Projects/SCRFD/lite.ai.toolkit/include -I/home/user/library/onnxruntime-linux-aarch64-1.17.1/include -isystem /home/user/library/opencv-4.5.2/build/your-path-to-custom-dir/include/opencv4
+CXX_INCLUDES = -I/home/user/ORT_Projects/SCRFD/lite.ai.toolkit/include -I/home/user/library/onnxruntime-linux-aarch64-1.17.1/include -isystem /home/user/library/opencv-4.5.2/build -isystem /home/user/library/opencv-4.5.2/include -isystem /home/user/library/opencv-4.5.2/modules/core/include -isystem /home/user/library/opencv-4.5.2/modules/flann/include -isystem /home/user/library/opencv-4.5.2/modules/imgproc/include -isystem /home/user/library/opencv-4.5.2/modules/ml/include -isystem /home/user/library/opencv-4.5.2/modules/photo/include -isystem /home/user/library/opencv-4.5.2/modules/dnn/include -isystem /home/user/library/opencv-4.5.2/modules/features2d/include -isystem /home/user/library/opencv-4.5.2/modules/imgcodecs/include -isystem /home/user/library/opencv-4.5.2/modules/videoio/include -isystem /home/user/library/opencv-4.5.2/modules/calib3d/include -isystem /home/user/library/opencv-4.5.2/modules/highgui/include -isystem /home/user/library/opencv-4.5.2/modules/objdetect/include -isystem /home/user/library/opencv-4.5.2/modules/stitching/include -isystem /home/user/library/opencv-4.5.2/modules/video/include -isystem /home/user/library/opencv-4.5.2/modules/gapi/include
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17
 

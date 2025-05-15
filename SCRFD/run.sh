@@ -6,8 +6,6 @@ echo "检查并更新 $BASHRC"
 # 实际路径，支持 ~ 替换为绝对路径
 CONFIGS=(
 'export PATH=$PATH:$HOME/library/opencv-4.5.2/build/bin'
-'export LD_LIBRARY_PATH=$HOME/ORT_Projects/SCRFD/lite.ai.toolkit/lib:$LD_LIBRARY_PATH'
-'export LIBRARY_PATH=$HOME/ORT_Projects/SCRFD/lite.ai.toolkit/lib:$LIBRARY_PATH'
 'export LD_LIBRARY_PATH=$HOME/library/opencv-4.5.2/build/lib:$LD_LIBRARY_PATH'
 'export LD_LIBRARY_PATH=$HOME/library/lite.ai.toolkit/lite/bin:$LD_LIBRARY_PATH'
 'export LD_LIBRARY_PATH=$HOME/library/onnxruntime-linux-aarch64-1.17.1/lib:$LD_LIBRARY_PATH'

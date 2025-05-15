@@ -98,21 +98,21 @@ test_scrfd_EXTERNAL_OBJECTS =
 
 test_scrfd: CMakeFiles/test_scrfd.dir/scrfd.cpp.o
 test_scrfd: CMakeFiles/test_scrfd.dir/build.make
-test_scrfd: /home/user/library/opencv-4.5.2/build/your-path-to-custom-dir/lib/libopencv_gapi.so.4.5.2
-test_scrfd: /home/user/library/opencv-4.5.2/build/your-path-to-custom-dir/lib/libopencv_highgui.so.4.5.2
-test_scrfd: /home/user/library/opencv-4.5.2/build/your-path-to-custom-dir/lib/libopencv_ml.so.4.5.2
-test_scrfd: /home/user/library/opencv-4.5.2/build/your-path-to-custom-dir/lib/libopencv_objdetect.so.4.5.2
-test_scrfd: /home/user/library/opencv-4.5.2/build/your-path-to-custom-dir/lib/libopencv_photo.so.4.5.2
-test_scrfd: /home/user/library/opencv-4.5.2/build/your-path-to-custom-dir/lib/libopencv_stitching.so.4.5.2
-test_scrfd: /home/user/library/opencv-4.5.2/build/your-path-to-custom-dir/lib/libopencv_video.so.4.5.2
-test_scrfd: /home/user/library/opencv-4.5.2/build/your-path-to-custom-dir/lib/libopencv_videoio.so.4.5.2
-test_scrfd: /home/user/library/opencv-4.5.2/build/your-path-to-custom-dir/lib/libopencv_dnn.so.4.5.2
-test_scrfd: /home/user/library/opencv-4.5.2/build/your-path-to-custom-dir/lib/libopencv_imgcodecs.so.4.5.2
-test_scrfd: /home/user/library/opencv-4.5.2/build/your-path-to-custom-dir/lib/libopencv_calib3d.so.4.5.2
-test_scrfd: /home/user/library/opencv-4.5.2/build/your-path-to-custom-dir/lib/libopencv_features2d.so.4.5.2
-test_scrfd: /home/user/library/opencv-4.5.2/build/your-path-to-custom-dir/lib/libopencv_flann.so.4.5.2
-test_scrfd: /home/user/library/opencv-4.5.2/build/your-path-to-custom-dir/lib/libopencv_imgproc.so.4.5.2
-test_scrfd: /home/user/library/opencv-4.5.2/build/your-path-to-custom-dir/lib/libopencv_core.so.4.5.2
+test_scrfd: /home/user/library/opencv-4.5.2/build/lib/libopencv_gapi.so.4.5.2
+test_scrfd: /home/user/library/opencv-4.5.2/build/lib/libopencv_highgui.so.4.5.2
+test_scrfd: /home/user/library/opencv-4.5.2/build/lib/libopencv_ml.so.4.5.2
+test_scrfd: /home/user/library/opencv-4.5.2/build/lib/libopencv_objdetect.so.4.5.2
+test_scrfd: /home/user/library/opencv-4.5.2/build/lib/libopencv_photo.so.4.5.2
+test_scrfd: /home/user/library/opencv-4.5.2/build/lib/libopencv_stitching.so.4.5.2
+test_scrfd: /home/user/library/opencv-4.5.2/build/lib/libopencv_video.so.4.5.2
+test_scrfd: /home/user/library/opencv-4.5.2/build/lib/libopencv_videoio.so.4.5.2
+test_scrfd: /home/user/library/opencv-4.5.2/build/lib/libopencv_dnn.so.4.5.2
+test_scrfd: /home/user/library/opencv-4.5.2/build/lib/libopencv_imgcodecs.so.4.5.2
+test_scrfd: /home/user/library/opencv-4.5.2/build/lib/libopencv_calib3d.so.4.5.2
+test_scrfd: /home/user/library/opencv-4.5.2/build/lib/libopencv_features2d.so.4.5.2
+test_scrfd: /home/user/library/opencv-4.5.2/build/lib/libopencv_flann.so.4.5.2
+test_scrfd: /home/user/library/opencv-4.5.2/build/lib/libopencv_imgproc.so.4.5.2
+test_scrfd: /home/user/library/opencv-4.5.2/build/lib/libopencv_core.so.4.5.2
 test_scrfd: CMakeFiles/test_scrfd.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/ORT_Projects/SCRFD/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test_scrfd"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_scrfd.dir/link.txt --verbose=$(VERBOSE)
